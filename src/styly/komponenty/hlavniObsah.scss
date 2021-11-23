@@ -1,5 +1,6 @@
 .hlavniObsah {
-	padding: $mezera-od-okraju;
-	max-width: 1000px;
-	margin: 0 auto;
+    padding: $mezera-od-okraju;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-row: 1/-1;
 }
