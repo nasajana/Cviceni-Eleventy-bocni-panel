@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			Boční panel
+		</title>
+		<link rel="stylesheet" href="/index.css">
+	</head>
+	<body>
+		<div class="layout">
+			<input type="checkbox" id="panel-checkbox" class="skrytyCheckbox">
+			{% include "bocniPanel.njk" %}
+			<main class="hlavniObsah">
+				{% include "hamburger.njk" %}
+				{{ content | safe }}
+			</main>
+			{% include "paticka.njk" %}
+		</div>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.bocniPanel {
+	background-color: #ffffff;
+	width: 250px;
+	padding: $mezera-od-okraju;
+
+	input:checked ~ & {
+		// Sem doplň styly pro vysunutý panel
+	}
+}
