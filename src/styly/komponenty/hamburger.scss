@@ -1,3 +1,5 @@
 .hamburger {
-	// @TODO: Bonus: Skryj tlačítko na obrazovkách s min-width: $velka-obrazovka.
+	@media (min-width: $velka-obrazovka) {
+		display: none;
+	}
 }

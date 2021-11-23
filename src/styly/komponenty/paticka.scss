@@ -1,4 +1,8 @@
 .paticka {
 	text-align: center;
 	padding: $mezera-od-okraju;
+
+	@media (min-width: $velka-obrazovka) {
+		grid-column: 2;
+	}
 }

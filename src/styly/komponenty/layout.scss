@@ -1,3 +1,8 @@
 .layout {
-	// @TODO: Bonus: Na většíc obrazovkách se postarej o to, aby panel byl nalevo od hlavního obsahu a patičky. Můžeš použít display: grid.
+	display: grid;
+	grid-template-rows: 1fr auto;
+
+	@media (min-width: $velka-obrazovka) {
+		grid-template-columns: auto 1fr;
+	}
 }
